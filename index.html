@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="calculadora">
+
+        <div class="visor">
+            <input type="text" id="visor" readonly>
+        </div>
+
+        <div class="botoes">
+            <button data-operacao="+">+</button>
+            <button data-operacao="-">-</button>
+            <button data-operacao="×">×</button>
+            <button data-operacao="÷">÷</button>
+            <button data-numero="7">7</button>
+            <button data-numero="8">8</button>
+            <button data-numero="9">9</button>
+            <button data-acao="apagar">←</button>
+            <button data-numero="4">4</button>
+            <button data-numero="5">5</button>
+            <button data-numero="6">6</button>
+            <button data-acao="limpar">AC</button>
+            <button data-numero="1">1</button>
+            <button data-numero="2">2</button>
+            <button data-numero="3">3</button>
+            <button data-acao="igual" class="igual">=</button>
+            <button data-numero="0" class="zero">0</button>
+            <button data-numero=",">,</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
